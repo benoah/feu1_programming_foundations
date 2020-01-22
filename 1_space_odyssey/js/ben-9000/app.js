@@ -1,8 +1,5 @@
 
-
-
-
-
+function callOutAndroid (){
 
 
 /*
@@ -84,7 +81,6 @@ _______/\\\\\________/\\\\\\\\\\\\______/\\\________/\\\______/\\\\\\\\\\\______
   ...    \   `\  \
           `-._/._/
 
-
 /*  8. REFACTOR Create functions:::::::
   Level 1:::::::::
   Refactor your application to be initialized by a function that will.
@@ -92,9 +88,28 @@ _______/\\\\\________/\\\\\\\\\\\\______/\\\________/\\\______/\\\\\\\\\\\______
   Level 2:::::::::
   Look through your code and find more opportunities to use and call functions and parameters aka arguments.*/
 
-function callOutAndroid(){
-  var android={
-    head:{
+
+  var isAlive = true;
+  var name = "ben-9000";
+  var hasJetPack = true;
+  var suitColor = "black";
+  var eyes = 4;
+  var eyeColor = "brown";
+  var hairColor = "black";
+  var legs = 2;
+  var arms = 2;
+  var hands = 2;
+  var ears = 2;
+  var canWalk = true;
+  var canRun = true;
+  var canFly = true;
+  var hasWeapon = false;
+  var isInGoodMood = false;
+  */
+  
+  
+  var android = {
+    head: {
       name: "ben-9000",
       eyes: 2,
       eyeColor: "brown",
@@ -117,17 +132,27 @@ function callOutAndroid(){
       isAlive: true,
       suitColor: "black",
       hasJetPack: true
-    },
-  }
-};
-
-
-
+    }
+  };
   
-  
+  console.log(".-.-. Booting .-.-.");
+  console.log(android.head.name);
+  console.log(android.head.eyes);
+  console.log(android.head.ears);
+  console.log(android.head.eyeColor);
+  console.log(android.head.hairColor);
+  console.log(android.anyThingElseYouCanDreamOf.isAlive);
+  console.log(android.anyThingElseYouCanDreamOf.canWalk);
+  console.log(android.anyThingElseYouCanDreamOf.canFly);
+  console.log(android.anyThingElseYouCanDreamOf.hasWeapon);
+  console.log(android.anyThingElseYouCanDreamOf.hasJetPack);
+  console.log(android.lowerBody.legs);
+  console.log(android.upperBody.arms);
+  console.log(android.upperBody.hands);
 
 
-/*
+
+  *
  7. Android Object REFACTOR:::::
 
  Level 1::::::::::::::
@@ -770,7 +795,7 @@ console.group(planets[1][0]); // Neptunes.done
   console.log("mass:", "60,190.03 Earth days (164.79 Earth years)");
 console.groupEnd();
 
-<<<<<<< HEAD
+};
 
 
 
@@ -779,86 +804,6 @@ console.groupEnd();
 
 
 
+  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-/*
- Level 2::::::::::::::
- Add 2 New planets of your choosing to the front of the Array : https://nineplanets.org
-*/
-
-console.log(planets);
->>>>>>> upstream/master
