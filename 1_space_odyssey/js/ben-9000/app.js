@@ -85,7 +85,6 @@ _______/\\\\\________/\\\\\\\\\\\\______/\\\________/\\\______/\\\\\\\\\\\______
           `-._/._/
 
 
-<<<<<<< Updated upstream
 /*  8. REFACTOR Create functions:::::::
   Level 1:::::::::
   Refactor your application to be initialized by a function that will.
@@ -95,28 +94,6 @@ _______/\\\\\________/\\\\\\\\\\\\______/\\\________/\\\______/\\\\\\\\\\\______
 
 
   
-=======
- 1. CREATE DROID::::::
-    Below are all the variables needed to initialize an android into consciousness in its default state.
-    a. assign the correct values to the variables below,
-    b. ensure to choose the correct values and datatypes
-    c. the droid should be built in your likeness (a human, with human features, 2 arms, legs etc)
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> Stashed changes
 
 
 
