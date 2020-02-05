@@ -358,11 +358,6 @@ if (hasJetPack) {
   );
 }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> upstream/master
 /* 3. METEOR SHOWER::::::
 On your way to Jupiter you encounter a massive meteor shower that could damage the ship, you need to redirect the ship to a new safe location.
 a) Using a for loop iterate through the responses array and choose the appropriate response to get out of danger.
